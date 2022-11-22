@@ -56,6 +56,7 @@ const MessageContent = styled.div`
   padding: 10px;
   width: fit-content;
   max-width: 600px;
+  word-break: break-all;
   margin-left: ${({ direction }) => (direction === "right" ? "auto" : "none")};
   margin-right: ${({ direction }) => (direction === "left" ? "auto" : "none")};
   margin-block: 14px;
